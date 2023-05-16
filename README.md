@@ -51,6 +51,24 @@
 - [ ] 회귀 코드 이해
 - [ ] 이진분류 데이터 EDA
 
+❓ 궁금한 것
+- 파이썬 함수 실행 순서 -> 같은 이름의 함수가 존재할 때, run에 의해 뒤늦게 실행된 파일의 우선순위가 더 높은 건가?
+```
+# case 1.
+%run ./AnnModel1.ipynb
+%run ./mlp.ipynb
+
+set_hidden([1,2])
+main() -> init_param() 함수를 호출할 때, AnnModel1이 아닌 mlp 파일의 함수를 호출함
+
+# case 2.
+%run ./mlp.ipynb
+%run ./AnnModel1.ipynb
+
+set_hidden([1,2])
+main() -> init_param() 함수를 호출할 때, AnnModel1 파일의 함수를 
+```
+
 🗒️ 회고 작성
 ```
 ㅇ
