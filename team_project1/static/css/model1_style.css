@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    padding: 10px 0px 30px 0px;
+}
+
+.input{
+    width: 50%;
+    margin: 0 auto;
+    /* background-color:beige; */
+    border-radius: 3%;
+    border: 2px solid gray;
+    padding: 10px 10px;
+}
+
+label {
+    margin: 10px 0px 0px 0px;
+}
+
+legend{
+    margin: 0px 220px;
+}
